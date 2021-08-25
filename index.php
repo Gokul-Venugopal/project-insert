@@ -11,18 +11,18 @@
     <marquee behavior="scroll" direction="right">Open from 9am To 6pm Monday To Friday</marquee>
 
 
-	<a href="http://localhost/project/index.php">
+	<a href="https://projectinsert.herokuapp.com/">
     <button>Home</button>
     </a>
     
-	<a href="http://localhost/project/retrieve.php">
+	<a href="https://projectvieww.herokuapp.com/">
     <button>Retrieve</button>
     </a>
 
-	<a href="http://localhost/project/update.php">
+	<a href="https://projectvieww.herokuapp.com/">
     <button>Update</button>
     </a>
-	<a href="http://localhost/project/delete.php">
+	<a href="https://projectdelete.herokuapp.com/">
     <button>Delete</button>
     </a>
 
