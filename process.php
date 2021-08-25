@@ -42,7 +42,7 @@ if(isset($_POST['save']))
 	 $sql = "INSERT INTO record (firstname,lastname,Age,Adhaar_Number,Previous_Health_Condition,Present_Health_Condition,phonenumber,specs,Date_of_Appointment,Time_Slot)
 	 VALUES ('$firstname','$lastname','$Age','$Adhaar_Number','$Previous_Health_Condition','$Present_Health_Condition','$phonenumber','$specs','$Date_of_Appointment','$Time_Slot')";
 	 if (mysqli_query($conn, $sql)) {
-		echo 'View All record inserted successfully !</a>';
+		echo '<h1><b>Click on Retrieve to See inserted data</b></h2>!</a>';
 	 } else {
 		echo "Error: " . $sql . "
 " . mysqli_error($conn);
